@@ -5,19 +5,19 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 6 Statistics | Mathematics Project</title>
-  <meta name="description" content="This book is a collection of miscellaneous special middle and high school math topics." />
+  <meta name="description" content="Chapter 6 Statistics | Mathematics Project" />
   <meta name="generator" content="bookdown 0.35 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 6 Statistics | Mathematics Project" />
   <meta property="og:type" content="book" />
   
-  <meta property="og:description" content="This book is a collection of miscellaneous special middle and high school math topics." />
-  <meta name="github-repo" content="rstudio/bookdown-demo" />
+  
+  
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Chapter 6 Statistics | Mathematics Project" />
   
-  <meta name="twitter:description" content="This book is a collection of miscellaneous special middle and high school math topics." />
+  
   
 
 <meta name="author" content="Aishik Banerjee" />
@@ -78,7 +78,11 @@
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> About</a></li>
 <li class="chapter" data-level="2" data-path="algebra.html"><a href="algebra.html"><i class="fa fa-check"></i><b>2</b> Algebra</a></li>
-<li class="chapter" data-level="3" data-path="counting.html"><a href="counting.html"><i class="fa fa-check"></i><b>3</b> Counting</a></li>
+<li class="chapter" data-level="3" data-path="counting.html"><a href="counting.html"><i class="fa fa-check"></i><b>3</b> Counting</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="counting.html"><a href="counting.html#step-problem-with-fibonacci-numbers"><i class="fa fa-check"></i><b>3.1</b> Step Problem with Fibonacci Numbers</a></li>
+<li class="chapter" data-level="3.2" data-path="counting.html"><a href="counting.html#race-with-ties-problem"><i class="fa fa-check"></i><b>3.2</b> Race-with-Ties Problem</a></li>
+</ul></li>
 <li class="chapter" data-level="4" data-path="geometry.html"><a href="geometry.html"><i class="fa fa-check"></i><b>4</b> Geometry</a></li>
 <li class="chapter" data-level="5" data-path="probability.html"><a href="probability.html"><i class="fa fa-check"></i><b>5</b> Probability</a></li>
 <li class="chapter" data-level="6" data-path="statistics.html"><a href="statistics.html"><i class="fa fa-check"></i><b>6</b> Statistics</a></li>
@@ -141,8 +145,8 @@ gitbook.start({
 },
 "fontsettings": {
 "theme": "white",
-"family": "sans",
-"size": 2
+"family": "serif",
+"size": 3
 },
 "edit": {
 "link": null,
@@ -156,7 +160,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": null,
+"download": "book.pdf",
 "search": {
 "engine": "fuse",
 "options": null
@@ -168,6 +172,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

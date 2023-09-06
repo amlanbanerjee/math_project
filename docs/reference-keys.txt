@@ -1,6 +1,8 @@
 about
 algebra
 counting
+step-problem-with-fibonacci-numbers
+race-with-ties-problem
 geometry
 probability
 statistics
