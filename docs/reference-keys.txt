@@ -3,6 +3,7 @@ algebra
 counting
 step-problem-with-fibonacci-numbers
 race-with-ties-problem
+counting-the-number-of-subsets-of-a-set
 geometry
 probability
 statistics
